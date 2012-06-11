@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* 页面css */
+html,body,#wpbody,.form-table .pre{background: #ffffff url("../images/login-bg-body.jpg");  font-size: 13px; font-family: 微软雅黑,宋体;}
+a{text-decoration: none;}
+body.login,body{border: none;}
+h1 a{display: none;}
+
+/* 登陆框主体部分css */
+#login{background: url("../images/login-bg.jpg") no-repeat;  width: 650px;  height: 500px;  position: relative; margin: 50px auto;}
+#loginform {padding-left: 110px;  float: right;  border-left: 2px solid #e3e3d3}
+#loginform #user_login , #loginform #user_pass {border: 2px dotted #666666}
+form{width: 280px;  height: 166px;  padding: 45px 0px 0px 0px;  background: url() no-repeat; margin: 60px 0 0 0; border: none; -moz-border-radius: 0; -webkit-border-radius: 0; border-radius: 0; -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none;}
+#user_pass,#user_login,#user_email{width: 190px; height: 20px; margin-bottom: 10px;}
+
+/* 登陆框各组成css */
+label {font-size: 13px; color: #fff;}
+form .forgetmenot label {font-size: 13px;  color: #666666;}
+.login #nav a{color: #666666 !important;}
+input.button-primary, button.button-primary, a.button-primary{background: none; border: none; text-shadow: none; margin: 0; padding: 0; font-size: 13px; font-family: 微软雅黑,宋体;}
+form .submit input {color: #666666;}
+input.button-primary: active, button.button-primary: active, a.button-primary: active {background: none;}
+
+/* 其他 */
+#nav{margin: 0; padding: 0; position: absolute; text-shadow: none;}
